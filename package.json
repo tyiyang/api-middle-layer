@@ -1,0 +1,20 @@
+{
+  "name": "api-middle-layer",
+  "version": "1.0.0",
+  "description": "api层二次封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "axios"
+  ],
+  "author": "tyiyang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "qs": "^6.9.4",
+    "vue": "^2.6.11"
+  }
+}
