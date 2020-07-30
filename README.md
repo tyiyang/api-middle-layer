@@ -1,6 +1,6 @@
 # api-middle-layer
 
-####基于axios的二次封装
+基于axios的二次封装
 
 ---
 当前只实现 get、post
@@ -25,6 +25,7 @@
 
 使用方式：
 ```
+···
 import server from './api/index.js'
 mounted() {
     server.pledge.borrowConf({
@@ -35,4 +36,5 @@ mounted() {
     })
     server.v(this)
 },
+···
 ```
